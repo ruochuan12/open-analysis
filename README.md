@@ -199,7 +199,7 @@ const open = (target, options) => {
 ```
 
 跟着断点，我们来看最终调用的 `baseOpen`。
-这个函数比较长，重点可以猜到是：`const subprocess = childProcess.spawn(command, cliArguments, childProcessOptions);`这句，我们可以打算断点调试。
+这个函数比较长，重点可以猜到是：`const subprocess = childProcess.spawn(command, cliArguments, childProcessOptions);`这句，我们可以打上断点调试。
 
 ### 4.3 baseOpen 基础打开函数
 
